@@ -35,6 +35,46 @@ npm run reset-project
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
+# 📋 Listify - MyTasksApp  
+**Developed by: Sindhuja Pyla**
+
+---
+
+## 🧾 Project Overview
+
+**Listify** is a simple and elegant To-Do List application built using **React Native** and **Expo**. The app allows users to add, view, mark as complete, and delete tasks. It’s designed with a modern UI that includes optional background video support to enhance the user experience.
+
+---
+
+## 📱 Features
+
+- ✅ Add new tasks
+- ✏️ Edit and update tasks
+- ❌ Delete tasks
+- ✔️ Mark tasks as completed
+- 🎥 Optional video background using `expo-av`
+- 🎨 Clean and responsive design
+
+---
+
+## 🚀 Getting Started with Expo
+
+### ✅ Requirements
+
+- Node.js (v16 or v18 recommended)
+- Expo CLI (`npm install -g expo-cli`)
+- Expo Go app (Android/iOS)
+- Git (optional)
+
+---
+
+### 🔧 Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/sindhupyla/Listify.git
+   cd Listify
+
 ## Learn more
 
 To learn more about developing your project with Expo, look at the following resources:
@@ -49,4 +89,4 @@ Join our community of developers creating universal apps.
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 =======
-# Listify
+
