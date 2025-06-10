@@ -26,7 +26,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Video
-        source={require('../assets/background.mp4')} // <-- Replace with your mp4 path
+        source={require('../assets/background.mp4')} 
         rate={1.0}
         volume={1.0}
         isMuted={true}
