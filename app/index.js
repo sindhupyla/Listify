@@ -1,5 +1,5 @@
 import { Video } from 'expo-av';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Button, FlatList, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 export default function HomeScreen() {
@@ -26,7 +26,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Video
-        source={require('../../assets/background.mp4')} // <-- Replace with your mp4 path
+        source={require('../assets/background.mp4')} // <-- Replace with your mp4 path
         rate={1.0}
         volume={1.0}
         isMuted={true}
